@@ -16,7 +16,7 @@ public class ExcelToJson :MonoBehaviour
     {
         Debug.Log("Test");
         // string path = "aa";
-        string path = $"Data/{_csvFileName}";
+        string path = $"Data/CSV/{_csvFileName}";
 
         List<Dictionary<string, object>> testList = CSVReader.Read(path);
        
