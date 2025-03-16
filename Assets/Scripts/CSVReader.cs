@@ -12,6 +12,9 @@ public class CSVReader
 
 	public static List<Dictionary<string, object>> Read(string file)
 	{
+		// TODO json 형태 수정해야함
+		// CharacterStat와 같은 형태로 나와야함 Dictionary로 list 묶어야함
+		// Test.csv로 테스트 다시 해야함
 		var list = new List<Dictionary<string, object>>();
 		TextAsset data = Resources.Load (file) as TextAsset;
 
@@ -23,7 +26,6 @@ public class CSVReader
 		for(var i = 1; i < lines.Length; i++) {
 
 			var values = Regex.Split(lines[i], SPLIT_RE);
-			// if(values.Length == 0 ||values[0] == "" ) continue;
 			// if(values.Length == 0 ||string.IsNullOrEmpty(values[0])) continue;
 
 			var entry = new Dictionary<string, object>();

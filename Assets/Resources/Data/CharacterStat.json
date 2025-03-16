@@ -1,0 +1,30 @@
+{
+  "CharacterStat" : [
+    {
+      "index": 0,
+      "chaname": 0,
+      "hp": 900,
+      "shield": 400,
+      "mp": 10,
+      "mpreg": 1,
+      "armor": 0,
+      "aparmor": 0,
+      "sharmor": 0,
+      "movesp": 1,
+      "actsp": 1
+    },
+    {
+      "index": 1,
+      "chaname": 1,
+      "hp": 450,
+      "shield": 0,
+      "mp": 30,
+      "mpreg": 1,
+      "armor": 0,
+      "aparmor": 0,
+      "sharmor": 0,
+      "movesp": 2,
+      "actsp": 3
+    }
+  ]
+}

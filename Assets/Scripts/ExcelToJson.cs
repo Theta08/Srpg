@@ -6,12 +6,17 @@ using UnityEngine;
 
 public class ExcelToJson :MonoBehaviour
 {
+    [SerializeField]
+    private string _csvFileName;
+    // [SerializeField]
+    // private string _jsonFileName;
+    
     
     private void Start()
     {
         Debug.Log("Test");
         // string path = "aa";
-        string path = "Data/Test2";
+        string path = $"Data/{_csvFileName}";
 
         List<Dictionary<string, object>> testList = CSVReader.Read(path);
        
@@ -19,7 +24,7 @@ public class ExcelToJson :MonoBehaviour
         Debug.Log(result);
       
         if(result.Length > 0)
-            SaveJsonToFile(result, "JosonTest.json");
+            SaveJsonToFile(result, $"{_csvFileName}.json");
     }
 
     void SaveJsonToFile(string json, string name)
