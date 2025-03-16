@@ -1,6 +1,6 @@
 [
   {
-    "ind": 1,
+    "ind": "",
     "chaName": 0,
     "skillnum": 0,
     "atk": 75,
@@ -20,7 +20,7 @@
     "cc4": 0
   },
   {
-    "ind": 2,
+    "ind": "",
     "chaName": 0,
     "skillnum": 1,
     "atk": 100,
@@ -40,7 +40,7 @@
     "cc4": 0
   },
   {
-    "ind": 3,
+    "ind": "",
     "chaName": 0,
     "skillnum": 2,
     "atk": 0,
@@ -60,7 +60,7 @@
     "cc4": 0
   },
   {
-    "ind": 4,
+    "ind": "",
     "chaName": 0,
     "skillnum": 3,
     "atk": 150,
