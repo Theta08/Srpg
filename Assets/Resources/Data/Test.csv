@@ -1,0 +1,5 @@
+,ind,chaName,skillnum,atk,mp,cool,myself,atkrange,subrange,move,enmove,Hpreg,Mpreg,Shreg,cc1,cc2,cc3,cc4
+,,0,0,75,0,0,1,4,0,1,0,0,0,0,0,0,0,0
+,,0,1,100,3,3,1,23,0,4,2,0,0,0,15,0,0,0
+,,0,2,0,10,7,1,0,0,0,0,0,0,400,0,0,0,0
+,,0,3,150,5,6,1,24,0,0,0,0,0,0,1,0,0,0
