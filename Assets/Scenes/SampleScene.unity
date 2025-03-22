@@ -128,7 +128,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 89190424}
-  - component: {fileID: 89190425}
   m_Layer: 0
   m_Name: CsvToJson
   m_TagString: Untagged
@@ -151,19 +150,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &89190425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 89190423}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de2e37f7dea26484683874b0b1e0b971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _csvFileName: Range
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,7 +496,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660155269}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac8140129c3dda54eadee53f339ccf1a, type: 3}
   m_Name: 

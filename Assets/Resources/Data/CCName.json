@@ -1,0 +1,99 @@
+{
+  "CCName": [
+    {
+      "index": 0,
+      "CCName": "없음",
+      "Text": ""
+    },
+    {
+      "index": 1,
+      "CCName": "기절",
+      "Text": "n턴 간 행동 불가"
+    },
+    {
+      "index": 2,
+      "CCName": "속박",
+      "Text": "n턴 간 이동 불가"
+    },
+    {
+      "index": 3,
+      "CCName": "화상",
+      "Text": "n턴 간 전체 체력 1% 퍼뎀"
+    },
+    {
+      "index": 4,
+      "CCName": "쉴드 파괴",
+      "Text": "쉴드 n%만큼 제거"
+    },
+    {
+      "index": 5,
+      "CCName": "쉴드 관통",
+      "Text": "쉴드 무시하고 n만큼 체력 피해"
+    },
+    {
+      "index": 6,
+      "CCName": "즉사",
+      "Text": "즉시 사망"
+    },
+    {
+      "index": 7,
+      "CCName": "침묵",
+      "Text": "n턴 간 평타 외 사용 불가"
+    },
+    {
+      "index": 8,
+      "CCName": "실명",
+      "Text": "n턴 간 평타 피해, 효과 적용 안됨"
+    },
+    {
+      "index": 9,
+      "CCName": "면역",
+      "Text": "n턴 간 CC기 안 받음"
+    },
+    {
+      "index": 10,
+      "CCName": "저주",
+      "Text": "특정 피해 상대에게 고르게 만듦"
+    },
+    {
+      "index": 11,
+      "CCName": "이속 감소",
+      "Text": "movesp 감소"
+    },
+    {
+      "index": 12,
+      "CCName": "행속 감소",
+      "Text": "actsp 감소"
+    },
+    {
+      "index": 13,
+      "CCName": "마나 중독",
+      "Text": "n턴간 마나 소모량 n만큼 증가증가"
+    },
+    {
+      "index": 14,
+      "CCName": "파손",
+      "Text": "쉴드 소진 시 n만큼 피해를 받음"
+    },
+    {
+      "index": 15,
+      "CCName": "고정 데미지",
+      "Text": "n만큼의 armor, aparmor 무시 피해"
+    },
+    {
+      "index": 16,
+      "CCName": "강제 이동",
+      "Text": "n칸 강제 이동"
+    },
+    {
+      "index": 17,
+      "CCName": "카운터",
+      "Text": "적 공격에 반격"
+    },
+    {
+      "index": 18,
+      "CCName": "표식",
+      "Text": "n턴 간 표식 새김. 자신의 공격 적중 시 X의 효과"
+    }
+  ]
+}

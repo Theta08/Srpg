@@ -23,7 +23,7 @@ public class CSVReader
 		if(lines.Length <= 1) return list;
 
 		var header = Regex.Split(lines[0], SPLIT_RE);
-		for(var i = 1; i < lines.Length; i++) {
+		for(var i = 1; i < lines.Length - 1; i++) {	// 마지막이 공백을 포함시켜 -1 함
 
 			var values = Regex.Split(lines[i], SPLIT_RE);
 			// if(values.Length == 0 ||string.IsNullOrEmpty(values[0])) continue;
