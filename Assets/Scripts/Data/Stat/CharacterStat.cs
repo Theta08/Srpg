@@ -11,28 +11,28 @@ public class CharacterStat
     /// <summary>
     /// 체력
     /// </summary>
-    public string hp;
+    public int hp;
     /// <summary>
     /// 쉴드
     /// </summary>
-    public string shield;
+    public int shield;
     /// <summary>
     /// 마나
     /// </summary>
-    public string mp;
+    public int mp;
     /// <summary>
     /// 마나젠  : 턴 시작 시 회복
     /// </summary>
-    public string mpreg;
-    public string armor;
-    public string aparmor;
-    public string sharmor;
+    public float mpreg;
+    public int armor;
+    public int aparmor;
+    public int sharmor;
     /// <summary>
     /// 이동력
     /// </summary>
-    public string movesp;
+    public int movesp;
     /// <summary>
     ///  행동력
     /// </summary>
-    public string actspd;
+    public int actspd;
 }

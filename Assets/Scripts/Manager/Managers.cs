@@ -12,7 +12,7 @@ public class Managers : MonoBehaviour
     public static ResourceManager Resource { get { Init(); return Instance._resource; } }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
         Init();
     }

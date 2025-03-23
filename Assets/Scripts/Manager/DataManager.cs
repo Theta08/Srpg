@@ -15,7 +15,7 @@ public class DataManager
         CharacterStat = LoadJson<CharacterStatLoad, int, CharacterStat>("CharacterStat").MakeDict();
 
         CharacterStat characterStat = CharacterStat[0];
-        Debug.Log($"hp : {characterStat.hp}  actspd : {characterStat.actspd}");
+        //Debug.Log($"hp : {characterStat.hp}  actspd : {characterStat.actspd}");
     }
     
     Loader LoadJson<Loader, Key, Value>(string path) where Loader : ILoader<Key, Value>
